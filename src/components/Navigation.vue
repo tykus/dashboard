@@ -1,5 +1,6 @@
 <template>
     <aside class="h-full bg-grey-darkest text-white p-8 fixed w-64">
+        <button @click="$emit('browsing', false)">Dashboard</button>
         <ul class="list-reset">
           <li class="mb-3">
             <router-link to="/sales" class="text-grey-light no-underline hover:text-white">Sales</router-link>
